@@ -1,7 +1,7 @@
 #!/bin/python3
 
 import sys
-import datetime.datetime as dt
+from datetime import datetime as dt
 
 def time_delta(t1, t2):
     format = '%a %d %b %Y %H:%M:%S %z'
